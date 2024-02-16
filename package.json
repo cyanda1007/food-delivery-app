@@ -1,0 +1,17 @@
+{
+  "name": "food-delivery-singlevendor-main",
+  "version": "1.0.0",
+  "description": "<div align=\"right\"> <a target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=https://github.com/Ninjas-Code-official/Enatega-Food-Delivery-Solution\" style=\"text-decoration:none\">   <img src=\"https://img.shields.io/badge/-0d1117?logo=facebook\"  width=\"40\" height=\"30\"> </a> <a target=\"_blank\" href=\"https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Ninjas-Code-official/Enatega-Food-Delivery-Solution\" style=\"text-decoration:none\">   <img src=\"https://img.shields.io/badge/-0d1117?logo=linkedin\"  width=\"40\" height=\"30\"> </a> <a target=\"_blank\" href=\"https://twitter.com/intent/tweet?&url=https://github.com/Ninjas-Code-official/Enatega-Food-Delivery-Solution&via=TWITTER-HANDLE\" style=\"text-decoration:none\">   <img src=\"https://img.shields.io/badge/-0d1117?logo=twitter\" width=\"40\" height=\"30\"> </a> </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "expo": "^50.0.6",
+    "module": "^1.2.5",
+    "module_name": "^1.0.0"
+  }
+}

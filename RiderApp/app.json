@@ -1,0 +1,79 @@
+{
+  "expo": {
+    "name": "Enatega Rider",
+    "description": "Enatega is a starter kit food ordering app built in React Native using Expo for IOS and Android. It's made keeping good aesthetics in mind as well keeping the best coding practices in mind. Its fully customisable to easily help you in your next food delivery project. https://enatega.com/enatega-single-vendor/",
+    "version": "4.2.8",
+    "slug": "food-delivery-rider-singlevendor",
+    "owner": "ninjas_code",
+    "currentFullName": "@ninjas_code/food-delivery-rider-singlevendor",
+    "originalFullName": "@ninjas_code/food-delivery-rider-singlevendor",
+    "privacy": "public",
+    "androidStatusBar": {
+      "backgroundColor": "#000"
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/311d86a0-30ce-4683-8b9f-85be18904561"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "notification": {
+      "iosDisplayInForeground": true,
+      "color": "#d83765",
+      "icon": "./assets/not-icon.png",
+      "androidMode": "default",
+      "androidCollapsedTitle": "Enatega Rider"
+    },
+    "ios": {
+      "bitcode": false,
+      "supportsTablet": true,
+      "bundleIdentifier": "com.enatega.driver",
+      "config": {
+        "googleMapsApiKey": "AIzaSyCzNP5qQql2a5y8lOoO-1yj1lj_tzjVImA"
+      },
+      "infoPlist": {
+        "NSCameraUsageDescription": "To scan credit cards using Stripe sdk.",
+        "NSLocationWhenInUseUsageDescription": "Allow $(PRODUCT_NAME) to use location to determine the delivery address for your orders.",
+        "NSLocationAlwaysUsageDescription": "For a better experience, while using our Service, we may require you to provide us Location Permissions",
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ]
+      }
+    },
+    "android": {
+      "versionCode": 16,
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCzNP5qQql2a5y8lOoO-1yj1lj_tzjVImA"
+        }
+      },
+      "package": "com.enatega.rider"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "311d86a0-30ce-4683-8b9f-85be18904561"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
